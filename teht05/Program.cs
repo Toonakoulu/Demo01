@@ -11,19 +11,19 @@ namespace teht05
         static void Main(string[] args)
         {
             // Kysytään sekuntimäärä
-            int input, sekuntti, minuutti, tunti;
+            int input, tunti, minuutti, sekuntti;
             Console.Write("Anna sekunnit > ");
             input = int.Parse(Console.ReadLine());
 
             // Jakolaskua ja jakojäännöstä.
-            if (input < 60)
-                sekuntti = input;
-                minuutti = sekuntti / 60;
-                tunti = minuutti / 60;
-            {
-                Console.WriteLine("Antamasi sekuntiaika on {0} tuntia, {1} minuuttia ja {3} sekunttia.", tunti, minuutti, sekuntti);
-            }
-
+            tunti = input / 3600;
+            minuutti = input % 3600 / 60;
+            sekuntti = input % 3600 % 60;
+                           
+            Console.WriteLine("Antamasi sekuntiaika on {0} tunti, {1} minuutti ja {2} sekuntti.", tunti, minuutti, sekuntti);
+            
+            // wait enter
+            Console.ReadLine();
         }
     }
 }
