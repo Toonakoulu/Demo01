@@ -11,13 +11,14 @@ namespace teht09
         static void Main(string[] args)
         {
             int luku, summa;
+            summa = 0;
             // Tehdään silmukka, mikä kysyy lukuja, kunnes annettu luku on 0.
             while (true)
             {
                 Console.Write("Anna luku > ");
                 luku = int.Parse(Console.ReadLine());
                 if (luku == 0) break;
-                summa = luku + luku;
+                summa = summa + luku;
             }
             Console.WriteLine("Lukujen summa on {0}.", summa);
 

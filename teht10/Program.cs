@@ -22,11 +22,14 @@ namespace teht10
             luvut[7] = 96;
             luvut[8] = 100;
 
-            for (int i = 0; i < luvut.Length; luvut[i]++) 
-
-
-
-
+            for (int i = 0; i < luvut.Length; i++)
+            {
+                if (luvut[i] % 2 = 0)
+                {
+                    Console.Write("HEP");
+                }
+            }
+            
 
             // wait enter
             Console.ReadLine();
