@@ -28,7 +28,11 @@ namespace teht07
             {
                 Console.WriteLine("Vuosi ei ole karkausvuosi.");
             }
-
+            
+            /* toinen ratkaisu___________________
+             * if (vuosi %4 == 0 && vuosi % 100 != 0 || vuosi % 400 == 0) {tru dat}
+             * else {not tru}
+             */
 
             // wait enter
             Console.ReadLine();
