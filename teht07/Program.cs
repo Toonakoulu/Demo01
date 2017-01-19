@@ -12,22 +12,14 @@ namespace teht07
         {
             // Kysytään vuosi
             int vuosi;
-            Console.Write("Kerrohan ikäsi > ");
-            ikä = int.Parse(Console.ReadLine());
+            Console.Write("Anna vuosi > ");
+            vuosi = int.Parse(Console.ReadLine());
 
             // Katsotaan onko vuosi neljällä jaollinen jnejnejne.
-            if (ikä < 18)
-            {
-                Console.WriteLine("Alaikäinen.");
-            }
-            else if (18 < ikä && ikä < 65)
-            {
-                Console.WriteLine("Aikuinen.");
-            }
-            else if (ikä > 65)
-            {
-                Console.WriteLine("Seniori");
-            }
+            
+            
+
+
             // wait enter
             Console.ReadLine();
         }
