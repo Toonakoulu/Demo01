@@ -24,11 +24,8 @@ namespace teht10
 
             for (int i = 0; i < luvut.Length; i++)
             {
-                if (luvut[i] % 2 = 0)
-                {
-                    Console.Write("HEP");
-                }
-            }
+                if (luvut[i] % 2 = 0) Console.WriteLine("HEP");
+            } 
             
 
             // wait enter
