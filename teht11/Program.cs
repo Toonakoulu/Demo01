@@ -17,7 +17,7 @@ namespace teht11
             number = int.Parse(line);
 
             // Tehdään looppi mikä printtaa halutun määrän tähtiä
-            for (int i = 0; i < number; i++)
+            for (int i = 0; i < number; i ++)
             {
                 Console.WriteLine();
                 for (int a = 0; a < number; a++)
